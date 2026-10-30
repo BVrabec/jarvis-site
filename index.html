@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JARVIS — private personal assistant</title>
+<style>
+  :root { --bg:#0B0B0B; --fg:#E9E9E9; --dim:#8C8C8C; --faint:#5A5A5A; --line:#2A2A2A; --red:#D71921; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:14px/1.7 "Space Mono","DejaVu Sans Mono",ui-monospace,monospace; }
+  main { max-width:660px; margin:0 auto; padding:64px 24px 96px; }
+  h1 { font-size:20px; letter-spacing:.28em; font-weight:400; margin:0 0 6px; }
+  .sub { color:var(--dim); font-size:12px; letter-spacing:.06em; margin:0 0 40px; }
+  .rule { height:1px; background:var(--line); margin:32px 0; }
+  h2 { font-size:11px; letter-spacing:.22em; color:var(--dim); font-weight:400;
+       text-transform:uppercase; margin:0 0 14px; }
+  p { margin:0 0 14px; color:#CFCFCF; }
+  a { color:var(--fg); text-decoration:none; border-bottom:1px solid var(--line); }
+  a:hover { border-bottom-color:var(--red); }
+  ul { padding-left:18px; color:#CFCFCF; }
+  li { margin:0 0 8px; }
+  footer { color:var(--faint); font-size:11px; letter-spacing:.06em; margin-top:48px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>J A R V I S</h1>
+  <p class="sub">private personal assistant &middot; single user</p>
+
+  <p>JARVIS is a private, self-hosted personal assistant running on its owner's own server. It is
+  not a product and it is not offered to the public. It has exactly one user: its owner.</p>
+
+  <div class="rule"></div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads the owner's own Google Calendar to build a daily briefing and a plan for the day.</li>
+    <li>Creates and updates events on two calendars the owner has set aside for it — a personal
+        planning calendar and a school timetable calendar.</li>
+    <li>Reports those events to the owner by message and by phone call.</li>
+  </ul>
+
+  <h2>Why this page exists</h2>
+  <p>Google requires any application that asks for access to Google account data to publish a home
+  page and a privacy policy. This is that page.</p>
+
+  <div class="rule"></div>
+
+  <h2>Privacy</h2>
+  <p>What data is accessed, how it is used, and what is never done with it:
+  <a href="./privacy.html">privacy policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:vra.blaz@gmail.com">vra.blaz@gmail.com</a></p>
+
+  <footer>Personal project &middot; Slovenia &middot; no tracking, no cookies, no analytics on this page.</footer>
+</main>
+</body>
+</html>
